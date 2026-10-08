@@ -1,0 +1,16 @@
+:root {
+  --bg: #fafaf9;
+  --fg: #1c1917;
+  --muted: #78716c;
+  --accent: #2563eb;
+  --border: #e7e5e4;
+}
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
+.app { max-width: 560px; margin: 48px auto; padding: 0 16px; }
+.tagline { color: var(--muted); margin-top: -8px; }
+form { display: flex; gap: 8px; margin: 24px 0; }
+input#title { flex: 1; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: transparent; color: inherit; }
+button { padding: 10px 16px; border: 0; border-radius: 8px; background: var(--accent); color: white; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li { display: flex; gap: 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+li.done span { text-decoration: line-through; color: var(--muted); }
