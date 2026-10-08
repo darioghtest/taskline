@@ -14,3 +14,6 @@ button { padding: 10px 16px; border: 0; border-radius: 8px; background: var(--ac
 ul { list-style: none; padding: 0; }
 li { display: flex; gap: 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
 li.done span { text-decoration: line-through; color: var(--muted); }
+input#due { padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: transparent; color: inherit; }
+.due { margin-left: auto; color: var(--muted); font-size: 13px; }
+.due.overdue { color: #dc2626; font-weight: 600; }
